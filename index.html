@@ -1,24 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silvanyx | Cybersecurity Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Silvanyx cybersecurity portfolio focused on DFIR, SOC operations, threat detection, and security automation." />
+  <title>Silvanyx | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#">SILVANYX</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-    <div class="container">
-        <h1>SILVANYX</h1>
-        <p>Cybersecurity • DFIR • Security Operations • Detection Engineering</p>
+  <main>
+    <section class="hero">
+      <div class="badge">Cybersecurity Portfolio</div>
+      <h1>SILVANYX</h1>
+      <p class="tagline">Security Operations • DFIR • Threat Detection • Automation</p>
+      <p class="hero-text">
+        Building practical cybersecurity projects focused on digital forensics,
+        incident response, threat hunting, detection engineering, and security automation.
+      </p>
 
-        <h2>Coming Soon</h2>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Connect</a>
+      </div>
+    </section>
 
-        <p>
-            Building a portfolio focused on Digital Forensics,
-            Threat Detection, Security Automation, and Incident Response.
-        </p>
-    </div>
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m Julian Silva-Erazo, a Computer Science and Information Security student focused on
+        SOC operations, DFIR, threat detection, and security engineering. Silvanyx is my home base
+        for cybersecurity projects, technical labs, research, and future security tools.
+      </p>
+    </section>
 
+    <section id="projects" class="section">
+      <h2>Featured Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>AI-Powered IDS</h3>
+          <p>Machine learning-assisted intrusion detection using flow data, anomaly detection, and attack classification.</p>
+          <div class="tags">
+            <span>Suricata</span><span>Python</span><span>ML</span><span>Detection</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Threat Intelligence Dashboard</h3>
+          <p>Automated relevance scoring pipeline using LLMs, enrichment logic, and structured alert triage.</p>
+          <div class="tags">
+            <span>n8n</span><span>Groq</span><span>MITRE ATT&CK</span><span>Automation</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Silvanyx Atlas</h3>
+          <p>Future DFIR timeline builder for forensic artifacts, evidence tracking, timestamps, and investigation notes.</p>
+          <div class="tags">
+            <span>DFIR</span><span>Timeline</span><span>FastAPI</span><span>React</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Security Stack</h2>
+      <div class="skills">
+        <span>Splunk</span>
+        <span>Suricata</span>
+        <span>Wireshark</span>
+        <span>Nmap</span>
+        <span>Linux</span>
+        <span>Python</span>
+        <span>PowerShell</span>
+        <span>Active Directory</span>
+        <span>Registry Explorer</span>
+        <span>Prefetch</span>
+        <span>Jump Lists</span>
+        <span>SQLite Viewer</span>
+        <span>FastAPI</span>
+        <span>React</span>
+        <span>GitHub</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Connect</h2>
+      <p>
+        Open to cybersecurity internships, SOC analyst opportunities,
+        DFIR projects, and security engineering collaborations.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="https://github.com/Julznyc12" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/julian-silvaerazo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Silvanyx. Built with a security-first mindset.</p>
+  </footer>
 </body>
 </html>
