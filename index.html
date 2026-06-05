@@ -9,13 +9,17 @@
 </head>
 
 <body>
+  <div class="scan-line"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+
   <header class="site-header">
     <nav class="nav">
       <a class="logo" href="#">SILVANYX</a>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
+        <a href="#skills">Stack</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -23,33 +27,60 @@
 
   <main>
     <section class="hero">
-      <div class="badge">Cybersecurity Portfolio</div>
-      <h1>SILVANYX</h1>
-      <p class="tagline">Security Operations • DFIR • Threat Detection • Automation</p>
-      <p class="hero-text">
-        Building practical cybersecurity projects focused on digital forensics,
-        incident response, threat hunting, detection engineering, and security automation.
-      </p>
+      <div class="hero-left">
+        <div class="badge">Cybersecurity Portfolio</div>
+        <h1>SILVANYX</h1>
+        <p class="tagline">Security Operations • DFIR • Threat Detection • Automation</p>
+        <p class="hero-text">
+          Building practical cybersecurity projects focused on digital forensics,
+          incident response, threat hunting, detection engineering, and security automation.
+        </p>
 
-      <div class="hero-actions">
-        <a class="btn primary" href="#projects">View Projects</a>
-        <a class="btn" href="#contact">Connect</a>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Connect</a>
+        </div>
       </div>
+
+      <aside class="terminal-card">
+        <div class="terminal-top">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">silvanyx@ops:~$</span> initialize portfolio</p>
+          <p class="success">[OK] SOC workflow loaded</p>
+          <p class="success">[OK] DFIR artifacts indexed</p>
+          <p class="success">[OK] Detection projects online</p>
+          <p class="warn">[SOON] atlas.silvanyx.net</p>
+          <p><span class="prompt">status:</span> building security-first systems</p>
+        </div>
+      </aside>
     </section>
 
-    <section id="about" class="section">
-      <h2>About</h2>
-      <p>
-        I’m Julian Silva-Erazo, a Computer Science and Information Security student focused on
-        SOC operations, DFIR, threat detection, and security engineering. Silvanyx is my home base
-        for cybersecurity projects, technical labs, research, and future security tools.
-      </p>
+    <section id="about" class="section split">
+      <div>
+        <h2>About</h2>
+        <p>
+          I’m Julian Silva-Erazo, a Computer Science and Information Security student focused on
+          SOC operations, DFIR, threat detection, and security engineering. Silvanyx is my home base
+          for cybersecurity projects, technical labs, research, and future security tools.
+        </p>
+      </div>
+
+      <div class="stats">
+        <div><strong>DFIR</strong><span>Forensic timelines</span></div>
+        <div><strong>SOC</strong><span>Alert triage</span></div>
+        <div><strong>ML</strong><span>Detection models</span></div>
+      </div>
     </section>
 
     <section id="projects" class="section">
       <h2>Featured Projects</h2>
+      <p>Hands-on security projects built around real analyst workflows.</p>
+
       <div class="cards">
         <article class="card">
+          <span class="card-label">Detection Engineering</span>
           <h3>AI-Powered IDS</h3>
           <p>Machine learning-assisted intrusion detection using flow data, anomaly detection, and attack classification.</p>
           <div class="tags">
@@ -58,6 +89,7 @@
         </article>
 
         <article class="card">
+          <span class="card-label">Security Automation</span>
           <h3>Threat Intelligence Dashboard</h3>
           <p>Automated relevance scoring pipeline using LLMs, enrichment logic, and structured alert triage.</p>
           <div class="tags">
@@ -66,6 +98,7 @@
         </article>
 
         <article class="card">
+          <span class="card-label">Coming Soon</span>
           <h3>Silvanyx Atlas</h3>
           <p>Future DFIR timeline builder for forensic artifacts, evidence tracking, timestamps, and investigation notes.</p>
           <div class="tags">
@@ -77,6 +110,8 @@
 
     <section id="skills" class="section">
       <h2>Security Stack</h2>
+      <p>Tools and technologies used across security operations, forensic analysis, automation, and development.</p>
+
       <div class="skills">
         <span>Splunk</span>
         <span>Suricata</span>
