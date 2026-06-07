@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Silvanyx cybersecurity portfolio focused on DFIR, SOC operations, threat detection, and security automation." />
+  <meta name="description" content="Silvanyx cybersecurity portfolio focused on SOC operations, DFIR, detection engineering, and security automation." />
   <title>Silvanyx | Cybersecurity Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <div class="scan-line"></div>
-  <div class="orb orb-one"></div>
-  <div class="orb orb-two"></div>
-
   <header class="site-header">
     <nav class="nav">
       <a class="logo" href="#">SILVANYX</a>
+
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="#skills">Stack</a>
+        <a href="#stack">Stack</a>
+        <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -29,8 +27,17 @@
     <section class="hero">
       <div class="hero-left">
         <div class="badge">Cybersecurity Portfolio</div>
+
         <h1>SILVANYX</h1>
-        <p class="tagline">Security Operations • DFIR • Threat Detection • Automation</p>
+
+        <p class="tagline">
+          SOC Operations • Digital Forensics & Incident Response • Detection Engineering
+        </p>
+
+        <p class="availability">
+          Available for: SOC Internships • DFIR Internships • Security Engineering Internships
+        </p>
+
         <p class="hero-text">
           Building practical cybersecurity projects focused on digital forensics,
           incident response, threat hunting, detection engineering, and security automation.
@@ -46,13 +53,14 @@
         <div class="terminal-top">
           <span></span><span></span><span></span>
         </div>
+
         <div class="terminal-body">
-          <p><span class="prompt">silvanyx@ops:~$</span> initialize portfolio</p>
-          <p class="success">[OK] SOC workflow loaded</p>
-          <p class="success">[OK] DFIR artifacts indexed</p>
-          <p class="success">[OK] Detection projects online</p>
-          <p class="warn">[SOON] atlas.silvanyx.net</p>
-          <p><span class="prompt">status:</span> building security-first systems</p>
+          <p><span class="prompt">silvanyx@ops:~$</span> current_focus</p>
+          <p class="success">[ACTIVE] Detection Engineering Labs</p>
+          <p class="success">[ACTIVE] DFIR Research</p>
+          <p class="warn">[IN PROGRESS] CompTIA Security+</p>
+          <p class="warn">[IN DEVELOPMENT] atlas.silvanyx.net</p>
+          <p><span class="prompt">status:</span> building practical security systems</p>
         </div>
       </aside>
     </section>
@@ -61,19 +69,31 @@
       <div>
         <h2>About</h2>
         <p>
-         I'm Julian Silva-Erazo, a Computer Science & Information Security student at John Jay College of Criminal Justice with a focus on Security Operations, Digital Forensics & Incident Response (DFIR), threat detection, and security engineering.
-
-Through hands-on projects and research, I've developed experience in network defense, forensic investigations, security automation, and machine learning-based threat detection. Silvanyx serves as my platform for cybersecurity projects, technical research, and future security tools designed to support analysts and defenders.
-
-My goal is to build practical solutions that improve how organizations detect, investigate, and respond to cyber threats.
-
+          I'm Julian Silva-Erazo, a Computer Science & Information Security student at
+          John Jay College of Criminal Justice focused on SOC Operations, Digital Forensics
+          & Incident Response (DFIR), Detection Engineering, and Security Automation.
+        </p>
+        <p>
+          Through hands-on projects, research, and lab environments, I've worked on
+          intrusion detection systems, threat intelligence automation, and forensic
+          investigation workflows. Silvanyx serves as my platform for cybersecurity
+          projects, technical research, and future security tools.
         </p>
       </div>
 
       <div class="stats">
-        <div><strong>DFIR</strong><span>Forensic timelines</span></div>
-        <div><strong>SOC</strong><span>Alert triage</span></div>
-        <div><strong>ML</strong><span>Detection models</span></div>
+        <div>
+          <strong>CompTIA Security+</strong>
+          <span>In Progress</span>
+        </div>
+        <div>
+          <strong>Silvanyx Atlas</strong>
+          <span>DFIR Timeline Builder</span>
+        </div>
+        <div>
+          <strong>Detection Engineering</strong>
+          <span>Research & Labs</span>
+        </div>
       </div>
     </section>
 
@@ -85,60 +105,133 @@ My goal is to build practical solutions that improve how organizations detect, i
         <article class="card">
           <span class="card-label">Detection Engineering</span>
           <h3>AI-Powered IDS</h3>
-          <p>Machine learning-assisted intrusion detection using flow data, anomaly detection, and attack classification.</p>
+          <p>
+            Machine learning-assisted intrusion detection using flow data,
+            anomaly detection, and attack classification.
+          </p>
           <div class="tags">
-            <span>Suricata</span><span>Python</span><span>ML</span><span>Detection</span>
+            <span>Suricata</span>
+            <span>Python</span>
+            <span>ML</span>
+            <span>Detection</span>
           </div>
         </article>
 
         <article class="card">
           <span class="card-label">Security Automation</span>
           <h3>Threat Intelligence Dashboard</h3>
-          <p>Automated relevance scoring pipeline using LLMs, enrichment logic, and structured alert triage.</p>
+          <p>
+            Automated relevance scoring pipeline using LLMs, enrichment logic,
+            and structured alert triage.
+          </p>
           <div class="tags">
-            <span>n8n</span><span>Groq</span><span>MITRE ATT&CK</span><span>Automation</span>
+            <span>n8n</span>
+            <span>Groq</span>
+            <span>MITRE ATT&CK</span>
+            <span>Automation</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="card-label">Digital Forensics</span>
+          <h3>DFIR Investigations</h3>
+          <p>
+            Forensic analysis of Windows artifacts, browser activity, USB evidence,
+            timestamps, and investigation timelines.
+          </p>
+          <div class="tags">
+            <span>Registry</span>
+            <span>Prefetch</span>
+            <span>Jump Lists</span>
+            <span>SQLite</span>
           </div>
         </article>
 
         <article class="card">
           <span class="card-label">Coming Soon</span>
           <h3>Silvanyx Atlas</h3>
-          <p>Future DFIR timeline builder for forensic artifacts, evidence tracking, timestamps, and investigation notes.</p>
+          <p>
+            Future DFIR timeline builder for forensic artifacts, evidence tracking,
+            timestamps, and investigation notes.
+          </p>
           <div class="tags">
-            <span>DFIR</span><span>Timeline</span><span>FastAPI</span><span>React</span>
+            <span>DFIR</span>
+            <span>Timeline</span>
+            <span>FastAPI</span>
+            <span>React</span>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="skills" class="section">
+    <section id="stack" class="section">
       <h2>Security Stack</h2>
-      <p>Tools and technologies used across security operations, forensic analysis, automation, and development.</p>
+      <p>
+        Tools and technologies used across security operations, forensic analysis,
+        automation, and development.
+      </p>
 
-      <div class="skills">
-        <span>Splunk</span>
-        <span>Suricata</span>
-        <span>Wireshark</span>
-        <span>Nmap</span>
-        <span>Linux</span>
-        <span>Python</span>
-        <span>PowerShell</span>
-        <span>Active Directory</span>
-        <span>Registry Explorer</span>
-        <span>Prefetch</span>
-        <span>Jump Lists</span>
-        <span>SQLite Viewer</span>
-        <span>FastAPI</span>
-        <span>React</span>
-        <span>GitHub</span>
+      <div class="stack-groups">
+        <div class="stack-group">
+          <h3>Security Operations</h3>
+          <div class="skills">
+            <span>Splunk</span>
+            <span>Suricata</span>
+            <span>Wireshark</span>
+            <span>Nmap</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3>Digital Forensics</h3>
+          <div class="skills">
+            <span>Registry Explorer</span>
+            <span>Prefetch</span>
+            <span>Jump Lists</span>
+            <span>SQLite Viewer</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3>Engineering</h3>
+          <div class="skills">
+            <span>Python</span>
+            <span>PowerShell</span>
+            <span>FastAPI</span>
+            <span>React</span>
+            <span>GitHub</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <h3>Infrastructure</h3>
+          <div class="skills">
+            <span>Linux</span>
+            <span>Active Directory</span>
+            <span>Cloudflare</span>
+            <span>pfSense</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume-section">
+      <h2>Resume</h2>
+      <p>
+        View my cybersecurity-focused resume highlighting SOC, DFIR, detection engineering,
+        security automation, and hands-on technical projects.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#" aria-label="Resume download coming soon">Resume Coming Soon</a>
       </div>
     </section>
 
     <section id="contact" class="section contact">
       <h2>Connect</h2>
       <p>
-        Open to cybersecurity internships, SOC analyst opportunities,
-        DFIR projects, and security engineering collaborations.
+        Open to cybersecurity internships, SOC analyst opportunities, DFIR projects,
+        and security engineering collaborations.
       </p>
 
       <div class="hero-actions">
@@ -149,7 +242,7 @@ My goal is to build practical solutions that improve how organizations detect, i
   </main>
 
   <footer>
-    <p>© 2026 Silvanyx. Cybersecurity Research • DFIR • Security Engineering </p>
+    <p>© 2026 Silvanyx. Cybersecurity Research • DFIR • Security Engineering</p>
   </footer>
 </body>
 </html>
