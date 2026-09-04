@@ -3,8 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Julian Silva-Erazo — security engineering portfolio spanning SOC operations, DFIR, detection engineering, secure software development, and AI-assisted security tooling." />
+  <meta name="description" content="Julian Silva‑Erazo — security engineering portfolio spanning SOC operations, DFIR, detection engineering, secure software development, and AI-assisted security tooling." />
+  <meta name="theme-color" content="#070b12" />
   <title>Silvanyx | Security Engineering Portfolio</title>
+  <meta property="og:title" content="Silvanyx | Security Engineering Portfolio" />
+  <meta property="og:description" content="Julian Silva‑Erazo — security engineering portfolio spanning SOC operations, DFIR, detection engineering, secure software development, and AI-assisted security tooling." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Silvanyx | Security Engineering Portfolio" />
+  <meta name="twitter:description" content="Julian Silva‑Erazo — security engineering portfolio spanning SOC operations, DFIR, detection engineering, secure software development, and AI-assisted security tooling." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -20,7 +27,28 @@
         <a href="#stack">Stack</a>
         <a href="#contact">Contact</a>
       </div>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobileNav"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
     </nav>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#about">About</a>
+      <a href="#systems">Systems</a>
+      <a href="#labs">Labs</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </div>
   </header>
 
   <main>
@@ -28,14 +56,14 @@
       <div class="hero-left">
         <div class="badge">Security Engineering Portfolio</div>
 
-        <h1>Julian Silva-Erazo</h1>
+        <h1>Julian Silva&#8209;Erazo</h1>
 
         <p class="role-title">Cybersecurity &amp; Software Engineer</p>
 
-        <div class="tagline-group">
-          <p class="tagline">SOC Operations • DFIR • Detection Engineering</p>
-          <p class="tagline">Secure Software Engineering • AI &amp; Automation</p>
-        </div>
+        <p class="tagline">
+          SOC Operations • DFIR • Detection Engineering • Secure Software
+          Engineering • AI &amp; Automation
+        </p>
 
         <p class="hero-text">
           I build defensive security tools, operational software, and AI-assisted
@@ -45,7 +73,7 @@
         <div class="hero-actions">
           <a class="btn primary" href="#systems">Explore Systems</a>
           <a class="btn" href="https://github.com/Julznyc12" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a class="btn" href="/resume/DFIR resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          <a class="btn" href="resume/DFIR%20resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
       </div>
 
@@ -60,48 +88,32 @@
           <p class="term-label">CURRENT FOCUS</p>
           <p class="success">[ACTIVE] Security Engineering</p>
           <p class="success">[ACTIVE] DFIR &amp; Detection</p>
-          <p class="building">[BUILDING] NEXUS Command</p>
-          <p class="building">[BUILDING] RESTU-AI</p>
-          <p class="dev-status">[DEVELOPMENT] Silvanyx Atlas</p>
+          <p class="success">[ACTIVE] NEXUS Command</p>
+          <p class="success">[ACTIVE] RESTU-AI</p>
+          <p class="dev-status">[IN DEVELOPMENT] Silvanyx Atlas</p>
+          <p class="dev-status">[IN DEVELOPMENT] CyberQuest</p>
           <p class="warn">[IN PROGRESS] CompTIA Security+</p>
         </div>
       </aside>
     </section>
 
-    <section id="about" class="section split">
-      <div>
-        <h2>About</h2>
-        <p>
-          I'm Julian Silva-Erazo, a Computer Science &amp; Information Security student
-          focused on security operations, DFIR, detection engineering, and secure
-          software development.
-        </p>
-        <p>
-          I build security tools and applications that combine defensive security with
-          software engineering — from forensic investigation platforms and detection
-          systems to automation and operational software.
-        </p>
-        <p>
-          I also use AI-assisted development, prompt engineering, and workflow
-          automation to accelerate engineering while keeping architecture,
-          validation, and security decisions deliberate.
-        </p>
-      </div>
-
-      <div class="stats">
-        <div>
-          <strong>CompTIA Security+</strong>
-          <span>In Progress</span>
-        </div>
-        <div>
-          <strong>Silvanyx Atlas</strong>
-          <span>DFIR Timeline Builder</span>
-        </div>
-        <div>
-          <strong>Detection Engineering</strong>
-          <span>Research & Labs</span>
-        </div>
-      </div>
+    <section id="about" class="section about-section">
+      <h2>About</h2>
+      <p>
+        I'm Julian Silva&#8209;Erazo, a Computer Science &amp; Information Security student
+        focused on security operations, DFIR, detection engineering, and secure
+        software development.
+      </p>
+      <p>
+        I build security tools and applications that combine defensive security with
+        software engineering — from forensic investigation platforms and detection
+        systems to automation and operational software.
+      </p>
+      <p>
+        I also use AI-assisted development, prompt engineering, and workflow
+        automation to accelerate engineering while keeping architecture,
+        validation, and security decisions deliberate.
+      </p>
     </section>
 
     <section id="systems" class="section systems-section">
@@ -111,104 +123,103 @@
 
       <div class="systems-grid">
         <article class="system-card">
-          <div class="system-thumb" aria-hidden="true">
-            <span class="thumb-num">01</span>
-            <span class="thumb-hint">Preview coming soon</span>
+          <div class="system-top">
+            <span class="system-index">01</span>
+            <span class="system-status active">Active</span>
           </div>
-          <div class="system-body">
-            <div class="system-top">
-              <span class="system-status building">Building</span>
-            </div>
-            <h3>NEXUS Command</h3>
-            <p class="system-category">Personal Operations &amp; Intelligence Platform</p>
-            <p class="system-desc">
-              A personal operations and intelligence platform for tracking projects,
-              systems, and security posture in one place, built with security-by-design
-              principles from the ground up.
-            </p>
-            <div class="stack-tags">
-              <span>React</span>
-              <span>Vite</span>
-              <span>Context API</span>
-              <span>LocalStorage</span>
-              <span>Security-by-Design</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="system-card">
-          <div class="system-thumb" aria-hidden="true">
-            <span class="thumb-num">02</span>
-            <span class="thumb-hint">Preview coming soon</span>
-          </div>
-          <div class="system-body">
-            <div class="system-top">
-              <span class="system-status building">Building</span>
-            </div>
-            <h3>RESTU-AI</h3>
-            <p class="system-category">Secure Restaurant Operations SaaS</p>
-            <p class="system-desc">
-              A secure, multi-tenant SaaS platform for restaurant operations, with
-              role-based access control and row-level security enforced at the data layer.
-            </p>
-            <div class="stack-tags">
-              <span>React</span>
-              <span>TypeScript</span>
-              <span>Supabase</span>
-              <span>RBAC</span>
-              <span>RLS</span>
-              <span>SaaS Architecture</span>
-            </div>
+          <h3>NEXUS Command</h3>
+          <p class="system-category">Personal Operations &amp; Intelligence Platform</p>
+          <p class="system-desc">
+            A personal operations and intelligence platform for tracking projects,
+            systems, and security posture in one place, built with security-by-design
+            principles from the ground up.
+          </p>
+          <p class="system-build">
+            <span class="build-label">Current build —</span>
+            Dashboard, missions/tasks, education, calendar, applications, and
+            finance modules, with responsive mobile in progress.
+          </p>
+          <div class="stack-tags">
+            <span>React</span>
+            <span>Vite</span>
+            <span>Context API</span>
+            <span>LocalStorage</span>
+            <span>Security-by-Design</span>
           </div>
         </article>
 
         <article class="system-card">
-          <div class="system-thumb" aria-hidden="true">
-            <span class="thumb-num">03</span>
-            <span class="thumb-hint">Preview coming soon</span>
+          <div class="system-top">
+            <span class="system-index">02</span>
+            <span class="system-status active">Active</span>
           </div>
-          <div class="system-body">
-            <div class="system-top">
-              <span class="system-status development">Development</span>
-            </div>
-            <h3>Silvanyx Atlas</h3>
-            <p class="system-category">AI-Assisted DFIR Timeline Reconstruction</p>
-            <p class="system-desc">
-              An AI-assisted DFIR tool that reconstructs forensic artifacts into a
-              structured investigation timeline, built to speed up incident analysis.
-            </p>
-            <div class="stack-tags">
-              <span>React</span>
-              <span>FastAPI</span>
-              <span>DFIR</span>
-              <span>Timeline Analysis</span>
-              <span>Security Automation</span>
-            </div>
+          <h3>RESTU-AI</h3>
+          <p class="system-category">Secure Restaurant Operations SaaS</p>
+          <p class="system-desc">
+            A secure, multi-tenant SaaS platform for restaurant operations, with
+            role-based access control and row-level security enforced at the data layer.
+          </p>
+          <p class="system-build">
+            <span class="build-label">Current build —</span>
+            Dashboard, reservations architecture, customer CRM/conversations
+            work, multilingual UI, and security-first tenant/RBAC design.
+          </p>
+          <div class="stack-tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Supabase</span>
+            <span>RBAC</span>
+            <span>RLS</span>
+            <span>SaaS Architecture</span>
           </div>
         </article>
 
         <article class="system-card">
-          <div class="system-thumb" aria-hidden="true">
-            <span class="thumb-num">04</span>
-            <span class="thumb-hint">Preview coming soon</span>
+          <div class="system-top">
+            <span class="system-index">03</span>
+            <span class="system-status development">In Development</span>
           </div>
-          <div class="system-body">
-            <div class="system-top">
-              <span class="system-status development">In Development</span>
-            </div>
-            <h3>CyberQuest</h3>
-            <p class="system-category">Interactive Cybersecurity Training Platform</p>
-            <p class="system-desc">
-              An interactive cybersecurity training platform built around
-              progression-based learning modules aligned to Security+ objectives.
-            </p>
-            <div class="stack-tags">
-              <span>React</span>
-              <span>Vite</span>
-              <span>Security+</span>
-              <span>Interactive Training</span>
-              <span>Progression Systems</span>
-            </div>
+          <h3>Silvanyx Atlas</h3>
+          <p class="system-category">AI-Assisted DFIR Timeline Reconstruction</p>
+          <p class="system-desc">
+            An AI-assisted DFIR tool that reconstructs forensic artifacts into a
+            structured investigation timeline, built to speed up incident analysis.
+          </p>
+          <p class="system-build">
+            <span class="build-label">Current build —</span>
+            React frontend and FastAPI backend architecture for forensic CSV
+            ingestion and investigation workflows.
+          </p>
+          <div class="stack-tags">
+            <span>React</span>
+            <span>FastAPI</span>
+            <span>DFIR</span>
+            <span>Timeline Analysis</span>
+            <span>Security Automation</span>
+          </div>
+        </article>
+
+        <article class="system-card">
+          <div class="system-top">
+            <span class="system-index">04</span>
+            <span class="system-status development">In Development</span>
+          </div>
+          <h3>CyberQuest</h3>
+          <p class="system-category">Interactive Cybersecurity Training Platform</p>
+          <p class="system-desc">
+            An interactive cybersecurity training platform built around
+            progression-based learning modules aligned to Security+ objectives.
+          </p>
+          <p class="system-build">
+            <span class="build-label">Current build —</span>
+            Missions, progression systems, analyst stats, campaign interfaces,
+            and Security+ learning workflows.
+          </p>
+          <div class="stack-tags">
+            <span>React</span>
+            <span>Vite</span>
+            <span>Interactive Training</span>
+            <span>Progression Systems</span>
           </div>
         </article>
       </div>
@@ -219,10 +230,12 @@
       <h2>Security Research &amp; Labs</h2>
       <p>Smaller, focused research and lab work — exploratory and investigative, distinct from the flagship systems above.</p>
 
-      <div class="cards">
-        <article class="card">
-          <span class="card-label">Detection Engineering</span>
-          <h3>AI-Powered Intrusion Detection</h3>
+      <div class="labs-list">
+        <article class="lab-row">
+          <div class="lab-row-head">
+            <span class="lab-label">Detection Engineering</span>
+            <h3>AI-Powered Intrusion Detection</h3>
+          </div>
           <p>
             ML-based network intrusion detection work using models such as Random
             Forest, Logistic Regression, Isolation Forest, and hybrid approaches.
@@ -235,9 +248,11 @@
           </div>
         </article>
 
-        <article class="card">
-          <span class="card-label">Security Automation</span>
-          <h3>Threat Intelligence Automation</h3>
+        <article class="lab-row">
+          <div class="lab-row-head">
+            <span class="lab-label">Security Automation</span>
+            <h3>Threat Intelligence Automation</h3>
+          </div>
           <p>
             Automated threat-intelligence workflow using n8n and LLM-based
             relevance scoring.
@@ -250,9 +265,11 @@
           </div>
         </article>
 
-        <article class="card">
-          <span class="card-label">Digital Forensics</span>
-          <h3>Windows DFIR Investigations</h3>
+        <article class="lab-row">
+          <div class="lab-row-head">
+            <span class="lab-label">Digital Forensics</span>
+            <h3>Windows DFIR Investigations</h3>
+          </div>
           <p>
             Forensic investigation work using Windows artifacts such as event
             logs, registry data, prefetch, jump lists, and SQLite-backed
@@ -267,9 +284,11 @@
           </div>
         </article>
 
-        <article class="card">
-          <span class="card-label">Network Defense</span>
-          <h3>DDoS Detection &amp; Mitigation</h3>
+        <article class="lab-row">
+          <div class="lab-row-head">
+            <span class="lab-label">Network Defense</span>
+            <h3>DDoS Detection &amp; Mitigation</h3>
+          </div>
           <p>
             Security lab focused on detecting and mitigating denial-of-service
             activity using Suricata, Apache, iptables, and controlled traffic
@@ -283,9 +302,11 @@
           </div>
         </article>
 
-        <article class="card">
-          <span class="card-label">Identity &amp; Infrastructure</span>
-          <h3>Active Directory / Identity Labs</h3>
+        <article class="lab-row">
+          <div class="lab-row-head">
+            <span class="lab-label">Identity &amp; Infrastructure</span>
+            <h3>Active Directory / Identity Labs</h3>
+          </div>
           <p>
             Identity and infrastructure security work involving Active
             Directory, Group Policy, authentication systems, users/groups, and
@@ -380,10 +401,9 @@
       </p>
 
       <div class="hero-actions">
-        <a class="btn primary" href="/resume/DFIR resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a class="btn primary" href="resume/DFIR%20resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         <a class="btn" href="https://github.com/Julznyc12" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a class="btn" href="https://www.linkedin.com/in/julian-silvaerazo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <span class="btn disabled" aria-disabled="true">Email — Coming Soon</span>
       </div>
     </section>
   </main>
@@ -391,5 +411,7 @@
   <footer>
     <p>© 2026 Silvanyx. Cybersecurity Research • DFIR • Security Engineering</p>
   </footer>
+
+  <script src="nav.js" defer></script>
 </body>
 </html>
